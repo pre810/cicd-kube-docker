@@ -2,11 +2,12 @@ pipeline {
 
     agent any
 
-	tools {
-        maven "maven3"
-        jdk "OracleJDK8"
-    }
+	// tools {
+    //     maven "maven3"
+    //     jdk "OracleJDK8"
+    // }##
 
+   //#####
     environment {
         registry = "kubeimran/vproappdock"
         registryCredential = 'dockerhub'
